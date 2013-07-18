@@ -1,0 +1,1 @@
+define(["require","underscore","backbone","data/copyData"],function(e){var t=e("underscore"),n=e("backbone");e("data/copyData");var r=n.Model.extend({defaults:{title:"no title provided",other:"other stuff"},copy:copyData.testDefaults,initialize:function(){var e=this.copy.possibleNames[Math.floor(Math.random()*this.copy.possibleNames.length)];this.set({title:e})}});return r});

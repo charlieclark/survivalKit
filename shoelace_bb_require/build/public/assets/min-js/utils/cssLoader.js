@@ -1,0 +1,1 @@
+define(["require","jquery"],function(e){function n(){if(!CONFIG.isDev||CONFIG.liveEdit)return;localStorage.clear(),e(["libs/less-1.3.0.min"]);var n='<link rel="stylesheet/less" type="text/css" href="'+CONFIG.assetPath+'/css/global.less">';t("head").append(n)}var t=e("jquery");n()});

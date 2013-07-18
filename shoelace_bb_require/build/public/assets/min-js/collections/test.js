@@ -1,0 +1,1 @@
+define(["require","underscore","backbone","models/test"],function(e){var t=e("underscore"),n=e("backbone"),r=e("models/test"),i=n.Collection.extend({model:r});return new i});

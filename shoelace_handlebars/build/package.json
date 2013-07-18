@@ -1,0 +1,24 @@
+{
+    "name": "faq",
+    "version": "1.0.0",
+    "description": "Paths =====",
+    "main": "Gruntfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Stinkdigital/philips-faq.git"
+    },
+    "author": "Charlie Clark",
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "gitHead": "444bfdc58bcb78ad6e5b81d4bd52849bff9aa430",
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.1.1",
+        "grunt-contrib-nodeunit": "~0.1.2",
+        "grunt-contrib-mincss": "~0.3.1",
+        "grunt-strip": "~0.1.1"
+    }
+}

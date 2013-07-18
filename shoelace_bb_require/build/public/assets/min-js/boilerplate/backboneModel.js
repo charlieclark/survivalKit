@@ -1,0 +1,1 @@
+define(["require","underscore","backbone"],function(e){var t=e("underscore"),n=e("backbone"),r=n.Model.extend({defaults:function(){"default title"},initialize:function(){console.log("initialize"),console.log(this)}});return r});

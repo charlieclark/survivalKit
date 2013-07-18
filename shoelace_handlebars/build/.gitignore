@@ -1,0 +1,61 @@
+#         OS
+
+npm-debug.log
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Thumbs.db
+Icon?
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+#         GIT
+
+*.orig
+
+#         IDE
+
+.settings/*
+.project
+user.properties
+.idea?
+.idea/*
+.idea/workspace.xml
+/.idea/*
+/.idea/workspace.xml
+.metadata/*
+lab/.metadata/*
+
+#        VIDEO
+
+build/public/assets/video/*
+
+#        FLASH
+
+/bin/*
+/source/flash/libs/*.swf
+source/flash/assets/compile/assets/RECOVER_assets.fla
+
+/source/flash/html-template/
+/source/flash/.settings/
+/source/flash/.actionScriptProperties
+/build/public/history/
+/build/public/Main.html
+/build/public/playerProductInstall.swf
+/build/public/swfobject.js
+/build/public/fonts.html
+/build/public/fonts.swf
+/build/public/images/previs/
+/build/public/staticassets/
+
+#		vim
+
+*.swp
+*.swo
+*.swm
+*.swn
+
+#  NODE/GRUNT
+node_modules

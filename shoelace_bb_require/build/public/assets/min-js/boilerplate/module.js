@@ -1,0 +1,1 @@
+define(["require","jquery"],function(e){var t=e("jquery"),n={};return n.init=function(){return console.log("module initialized"),n},n.init()});

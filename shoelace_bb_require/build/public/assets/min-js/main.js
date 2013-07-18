@@ -1,0 +1,1 @@
+require.config({shim:{underscore:{exports:"_"},backbone:{deps:["underscore","jquery"],exports:"Backbone"}},paths:{jquery:"libs/jquery",underscore:"libs/underscore",backbone:"libs/backbone",text:"libs/require-text"}}),require(["backbone","views/app","routers/router","utils/cssLoader"],function(e,t){console.log("getting here !!!!! !!!"),new t});
